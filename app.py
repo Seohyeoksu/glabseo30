@@ -129,7 +129,7 @@ st.markdown("""
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 """, unsafe_allow_html=True)
 
-st.markdown("<h1>우리반 문집 참삭지도 도우미 📝</h1>", unsafe_allow_html=True)
+st.markdown("<h1>우리반 문집 첨삭지도 도우미 📝</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 <div class="instructions">
