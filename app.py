@@ -6,7 +6,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets['API_KEY']
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 st.set_page_config(
-    page_title="우리반 문집 참삭지도",
+    page_title="우리반 문집 첨삭지도",
     page_icon="📝",
     layout="wide",
     initial_sidebar_state="auto",
