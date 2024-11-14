@@ -7,7 +7,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets['API_KEY']
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 # 페이지 설정
-st.set_page_config(page_title="우리반 문집 첨삭지도", page_icon="📝", layout="wide")
+st.set_page_config(page_title="글쓰기기 첨삭지도", page_icon="📝", layout="wide")
 
 # CSS 스타일
 st.markdown("""
@@ -188,7 +188,7 @@ def display_feedback(feedback, writing_type):
             st.error(f"{title} 생성 중 오류가 발생했습니다.")
 
 def main():
-    st.markdown("<h1>우리반 문집 첨삭지도 도우미 📝</h1>", unsafe_allow_html=True)
+    st.markdown("<h1>글쓰기 첨삭지도 도우미 📝</h1>", unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
     
